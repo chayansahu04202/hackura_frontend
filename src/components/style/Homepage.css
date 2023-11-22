@@ -1,0 +1,109 @@
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #20C20E; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }
+
+.card_item{
+    border:none !important;
+}
+
+
+.shadow_effect{
+    box-shadow: 0;
+    transition: box-shadow 1.9s, opacity 0.5s;
+    will-change: transform;
+}
+.shadow_effect:hover{
+    box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+.Unordered_list li{
+    /* padding:8px 0; */
+    transition: color 0.3s ;
+}
+.Unordered_list li:hover{
+    color: #20C20E;
+}
+.heading_top{
+    height:100vh;
+}
+
+
+#myVideo {
+    width:100%;
+    position:absolute;
+    height:100%;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    object-fit:cover;
+    z-index: -1;
+  }
+ 
+
+  .heading_top_container{
+      padding-top:20%;
+  }
+  .Main_heading{
+      font-weight: 900;
+      font-size:110px;
+      letter-spacing: 30px;
+      text-shadow: 3px 1px 2px black, 0 0 10px white;
+  }
+  .Main_tagline{
+      font-weight: 500;
+      font-size:18px;
+      letter-spacing:2px;
+      text-shadow: 2px 1px 2px black, 0 0 20px white;
+  }
+  .contact_button{
+      border-radius: 10px;
+      color:black;
+      background-color:white;
+      border:none;
+      padding:8px;
+      font-weight: 500;
+      letter-spacing:2px;
+      transition: background-color 0.8s ;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+  .contact_button:hover{
+      color:white;
+      background-color: #20C20E;
+  }
+
+  @media only screen and (max-width: 600px){
+
+    .Main_heading{
+        margin-top:50%;
+        font-weight: 400;
+        letter-spacing:5px;
+        font-size:50px;
+    }
+    .main_tagline{
+        font-weight:200;
+        letter-spacing:1px;
+        font-size:8px;
+    }
+    .shadow_effect:hover{
+        box-shadow: none !important;
+    }
+
+  }

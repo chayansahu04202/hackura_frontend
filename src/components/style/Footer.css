@@ -1,0 +1,40 @@
+.background{
+    background-color: black;
+    height:auto;
+}
+.icon{
+    color:white;
+}
+.copyr{
+    color:white;
+    text-align:center;
+}
+.icons{
+    color:#20C20E;
+    transition: color 0.5s;
+}
+.icons:hover{
+    color: white;
+}
+.input_field{
+    border:2px solid #20C20E ;
+    background-color:black;
+    border-radius:5px;
+    color: #20C20E;
+    transition: border 1.5s;
+}
+.input_field:hover{
+    border:2px solid white;
+}
+.btn_submit{
+    color: black;
+    background-color:#20C20E;
+    border:1px solid #20C20E;
+    border-radius:5px;
+    font-weight: 400;
+    transition:background-color 0.5s;
+}
+.btn_submit:hover{
+    background-color:green;
+    border:1px solid green;
+}

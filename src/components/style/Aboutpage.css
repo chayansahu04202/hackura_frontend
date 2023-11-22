@@ -1,0 +1,14 @@
+.shadow_effect{
+    box-shadow: 0;
+    transition: box-shadow 0.5s, opacity 0.5s;
+    will-change: transform;
+}
+.shadow_effect:hover{
+    box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+.main_container{
+    height:auto;
+}
+.right{
+float:right;
+}
